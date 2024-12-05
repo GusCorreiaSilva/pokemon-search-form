@@ -1,0 +1,46 @@
+body {
+    background-color: #DC0A2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: ;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 50px; */
+    gap: 30px;
+}
+#pokemon-form {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.container h1,
+#pokemon-form label {
+    color: rgb(233, 233, 233);
+}
+#pokemon-form input {
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+#pokemon-form button {
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.card {
+    padding: 30px 15px;
+    background-color: rgb(233, 233, 233);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.poke-status {
+    background-color: rgb(216, 216, 216);
+    padding: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}

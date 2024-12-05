@@ -20,12 +20,14 @@ async function getPokemon(event) {
         infoContainer.innerHTML = `
           <div class="card">
             <img src="${pokemon.sprites.front_default}" alt="{pokemon.name}">
+           </div>
+            <div class="poke-status">
             <h2>${pokemon.name}</h2>
-            <p><strong>Height:</strong>${pokemon.height / 10} m</p>
-            <p><strong>Weight:</strong>${pokemon.weight / 10} kg</p>
-            <p><strong>Tipos:</strong>${pokemon.types.map(type => type.type.name).join(', ')}</p>
-            <p></p>
-          </div>
+                <p><strong>Height:</strong>${pokemon.height / 10} m</p>
+                <p><strong>Weight:</strong>${pokemon.weight / 10} kg</p>
+                <p><strong>Tipos:</strong>${pokemon.types.map(type => type.type.name).join(', ')}</p>
+             </div>
+          
         `
     
 
